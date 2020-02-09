@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 276px;
+    padding-top: 38px;
+    padding-right: 0px;
+    padding-bottom: 33px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 920px;
+    /* width: 467px;
+    height: 10px; */
+}
+
+.listItem {
+    margin: 0 10px;
+}
+
+.listItem a {
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+}
+
+.listItemHome a {
+    text-decoration: none;
+    color: #1abc9c;
+    font-size: 14pt;
+}
+
+.section1 {
+    background-image: url(../module-01-05/image/background.png);
+    background-size: cover;
+    width: 1807px;
+    height: 607px;
+}
+
+.blockL {
+    display: flex;
+    position: absolute;
+    top: 333px;
+    left: 265px;
+    height: 104px;
+    width: 104px;
+    background-color: #54a18f;
+}
+
+.blockR {
+    display: flex;
+    position: absolute;
+    top: 333px;
+    left: 1492px;
+    height: 104px;
+    width: 104px;
+    background-color: #54a18f;
+}
+
+.arrowL {
+    display: flex;
+    position: absolute;
+    width: 22px;
+    height: 38px;
+    top: 30px;
+    left: 36px;
+}
+
+.arrowR {
+    display: flex;
+    position: absolute;
+    width: 22px;
+    height: 38px;
+    top: 30px;
+    right: 36px;
+}
+
+.mainTitle {
+    display: flex;
+    position: absolute;
+    width: 738px;
+    height: 98px;
+    top: 316px;
+    left: 553px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.newCollection {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 38px;
+    color: rgba(81, 81, 81, 255);
+    margin-top: 35px;
+}
